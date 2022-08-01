@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./img/logo.jpg" alt="logo image">
+        <nav>
+            <ul>
+                <li><a href="cars.html">Home</a></li>
+                <li><a href="cars.html">Owners</a></li>
+                <li><a href="cars.html">Cars</a></li>
+                <li><a href="cars.html"> Insurance</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- contine informatii intrea header si footer -->
+        <h2>Add new person </h2>
+        <form class="form1">
+        <div class="form-field">
+            <label for="first-name-input" >First name</label>
+            <input type="text" id="first-name-input">             
+    </div>
+    <div class="form-field">
+            <label for="last-name-input" >Last name</label>
+            <input type="text" id="last-name-input">              
+    </div>
+</form>
+<form class="form2">
+    <div class="form-field">
+            <label for="cnp" >Identification number</label>
+            <input type="text" id="cnp">             
+    </div>
+    <div class="form-field">
+            <label for="birthdate" >Birth Date</label>
+            <input type="date" id="birthdate">             
+    </div>
+    <div class="form-field">
+            <label for="gender" >Gender</label>
+            <select id="gender">
+                <option>Male</option>
+                <option>Female</option>
+            </select>             
+    </div>
+</form>
+
+<div class="action-button"> 
+    <button id="submit-button" type="submit">Add person</button>
+    <button id="reset-button" type="reset">Reset form</button>
+</div>
+    </main>
+</body>
+</html>

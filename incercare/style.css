@@ -1,0 +1,130 @@
+header{
+   display: flex;
+   max-height: 30rem;
+   margin-bottom: 150px;
+   justify-content: space-between;
+   
+   
+   
+}
+header .logo{
+   height: 7rem;
+   margin-left: 15vw;
+   
+   
+    
+}
+body{
+   background-image: url("./img/background2.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   font-family: Arial;
+}
+nav{
+   display: block;
+   float: right;
+   margin-right: 22vw;
+   
+  
+}
+
+ul{
+   list-style: none;
+  display: inline-flex;
+
+}
+
+li{
+   display: inline-block;
+  
+   
+}
+
+body header nav ul li > a{
+   text-align: center;
+   color: black;
+   padding: 15px 15px;
+   border: 3px;
+   background-color:rgb(13, 134, 214);;
+  text-decoration: none;
+  border-radius: 5px;
+  display: block;
+  width: 60px;
+  border-right: 3px solid black;
+  
+  
+
+}
+
+h2{
+   margin-left: 15vw;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form1{
+   display: grid;
+   grid-template-columns: 60% 60%;
+   gap: 3rem;
+   width: 50vw;
+   margin-left: 15vw;
+}
+.form2{
+   display: grid;
+   grid-template-columns: 60% 27% 27%;
+   gap: 3rem;
+   width: 50vw;
+   margin-left: 15vw;
+}
+
+form > .form-field{
+      background-color: rgb(13, 134, 214);
+      padding: 15px;
+      margin-top: 15px;
+      border-radius: 10px;
+}
+
+form .form-field > input{
+   padding: 10px 10px;
+   width: 90%;
+   display: inline-block;
+   margin-top: 15px;
+   border: 2px solid black;
+   
+} 
+
+#gender{
+   display: block;
+   margin-top: 15px;
+   padding: 10px 10px;
+   width: 95%;
+   border: 2px solid black;
+  
+}
+
+.action-button > #submit-button{
+   margin-top: 30px;
+   display: inline-flex;
+   float: right;
+   margin-right: 21vw;
+   border-right: 2px solid black;
+   font-size: 17px;
+   background-color:rgb(13, 134, 214);
+   color: rgb(81, 4, 153);
+   border-color: black;
+   border-radius: 5px;
+   
+   
+}
+.action-button > #reset-button{
+   margin-top: 30px;
+   display: inline-flex;
+   float: right;
+   margin-right: 5px;
+   border-right: 2px solid black;
+   font-size: 17px;
+   background-color:rgb(13, 134, 214);
+   color: rgb(81, 4, 153);
+   border-color: black;
+   border-radius: 5px;
+
+}
