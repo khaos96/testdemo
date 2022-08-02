@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="insurance.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./img/logo.jpg" alt="logo image">
+        <nav>
+            <ul>
+                <li><a >Home</a></li>
+                <li><a href="index.html">Owners</a></li>
+                <li><a href="cars.html">Cars</a></li>
+                <li><a href="insurance.html"> Insurance</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- contine informatii intrea header si footer -->
+        <h2>Add new insurance </h2>
+        
+        <form class="form">
+            <div class="wrapper">
+        <div class="form-field1">
+            <label for="company-input" >Company</label>
+            <input type="text" id="company-input">             
+        </div>
+        <div class="form-field2">
+            <label for="persone-id" >Person ID</label>
+            <select id="persone-id">
+                <option>1</option>
+                <option>2</option>
+            </select>             
+    </div>
+    <div class="form-field3">
+        <label for="car-id" >Car ID</label>
+        <select id="car-id">
+            <option>1</option>
+            <option>2</option>
+        </select>             
+</div>
+     <div class="form-field4">
+            <label for="direct-pay" >Direct Pay</label>
+            <input type="checkbox" id="direct-pay">             
+        </div>
+        <div class="form-field5">
+            <p>Please select your payment type</p>
+            <input type="radio" id="cash">
+            <label for="cash" >Cash</label>
+            <input type="radio" id="card" >
+            <label for="card" >Card</label>          
+     </div>
+        <div class="form-field6">
+            <label for="start-date" >Start Date</label>
+            <input type="date" id="start-date">             
+        </div>
+        <div class="form-field7">
+            <label for="end-date" >End Date</label>
+            <input type="date" id="end-date">             
+        </div>
+     <div class="form-field8">
+            <label for="price" >Price</label>
+            <input type ="number" id="price">
+     </div>
+     <div class="form-field9">
+        <label for="notes" >Notes</label>
+        <textarea id="notes" rows="4" cols="50" autofocus ></textarea>   
+ </div>
+
+    </div>
+    <div class="action-button"> 
+        <button id="submit-button" type="submit">Add forcar</button>
+        <button id="reset-button" type="reset">Reset form</button>
+            </div>
+    </form>
+    </main>
+</body>
+</html>

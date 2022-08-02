@@ -1,0 +1,200 @@
+header{
+    display: flex;
+    max-height: 30rem;
+    margin-bottom: 150px;
+    justify-content: space-between;
+    
+    
+    
+ }
+ header .logo{
+    height: 7rem;
+    margin-left: 15%;
+    
+    
+     
+ }
+ body{
+    background-image: url("./img/insurance.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial;
+ }
+ nav{
+    display: block;
+    float: right;
+    margin-right: 10vw;
+    
+   
+ }
+ 
+ ul{
+    list-style: none;
+   display: flex;
+ 
+ }
+ 
+ li{
+    display: block;
+   
+    
+ }
+ 
+ body header nav ul li > a{
+    text-align: center;
+    color: black;
+    padding: 15px 15px;
+    border: 3px;
+    background-color:rgb(13, 134, 214);;
+   text-decoration: none;
+   border-radius: 5px;
+   display: block;
+   width: 60px;
+   border-right: 3px solid black;
+   
+   
+ 
+ }
+ 
+ h2{
+    margin-left: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+
+ 
+ input{
+    padding: 10px 10px;
+    width: 90%;
+    display: block;
+    margin-top: 15px;
+    border: 2px solid black;
+    
+ } 
+ 
+ 
+ 
+
+ .wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 5fr);
+    grid-gap: 1rem;
+    margin-left: 14.5vw;
+    margin-right: 10vw;
+
+ }
+ .form-field1{
+    background-color: rgb(13, 134, 214);
+    padding: 1em;
+    grid-column: 1/3;
+    border-radius: 10px;
+    
+ }
+ .form-field2{
+    background-color: rgb(13, 134, 214);
+    padding: 1em;
+    grid-column: 3/4;
+    border-radius: 10px;
+ }
+
+ .form-field3{
+    background-color: rgb(13, 134, 214);
+    padding: 1em;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    width: calc(50% - 1em);
+    border-radius: 10px;
+    
+ }
+ .form-field4{
+    background-color: rgb(13, 134, 214);
+    padding: 1em;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: calc(50% - 1em);
+    border-radius: 10px;
+ }
+
+ .form-field6{
+    background-color: rgb(13, 134, 214);
+    padding: 1em;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    border-radius: 10px;
+ }
+ .form-field9{
+    background-color: rgb(13, 134, 214);
+    padding: 1em;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    width: calc(50% - 1em);
+    border-radius: 10px;
+ }
+ .form-field7{
+    background-color: rgb(13, 134, 214);
+    padding: 1em;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    border-radius: 10px;
+ }
+ .form-field8{
+    background-color: rgb(13, 134, 214);
+    padding: 1em;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border-radius: 10px;
+ }
+ .form-field5{
+    background-color: rgb(13, 134, 214);
+    padding: 1em;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    border-radius: 10px;
+ }
+ .action-button{
+    display: flex;
+    justify-content: end;
+    margin-right: 10vw;
+    
+ }
+ .action-button > #submit-button{
+    border-right: 2px solid black;
+    font-size: 17px;
+    background-color:rgb(13, 134, 214);
+    color: rgb(81, 4, 153);
+    border-color: black;
+    border-radius: 5px;
+    
+    
+ }
+ .action-button > #reset-button{
+    border-right: 2px solid black;
+    font-size: 17px;
+    background-color:rgb(13, 134, 214);
+    color: rgb(81, 4, 153);
+    border-color: black;
+    border-radius: 5px;
+ 
+ }
+
+#persone-id{
+   display: block;
+   margin-top: 20px;
+   width: 25%;
+}
+#car-id{
+   display: block;
+   margin-top: 20px;
+   width: 50%;
+}
+#notes{
+   display: block;
+   margin-top: 20px;
+   width: 50%;
+}
+
+.form-field9 > label{
+   text-align: center;
+}
+
+ 
